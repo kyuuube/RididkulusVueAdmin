@@ -1,0 +1,51 @@
+{
+    "id": "1677112",
+    "name": "vue-ops-static",
+    "font_family": "iconfont",
+    "css_prefix_text": "icon-",
+    "description": "",
+    "glyphs": [
+        {
+            "icon_id": "1679828",
+            "name": "essay",
+            "font_class": "essay",
+            "unicode": "e655",
+            "unicode_decimal": 58965
+        },
+        {
+            "icon_id": "12225062",
+            "name": "menu file",
+            "font_class": "menu",
+            "unicode": "e613",
+            "unicode_decimal": 58899
+        },
+        {
+            "icon_id": "1469330",
+            "name": "user",
+            "font_class": "user",
+            "unicode": "e880",
+            "unicode_decimal": 59520
+        },
+        {
+            "icon_id": "1160233",
+            "name": "system",
+            "font_class": "system",
+            "unicode": "e6a6",
+            "unicode_decimal": 59046
+        },
+        {
+            "icon_id": "4765881",
+            "name": "dashboard",
+            "font_class": "dashboard",
+            "unicode": "e78b",
+            "unicode_decimal": 59275
+        },
+        {
+            "icon_id": "5262062",
+            "name": "role_icon",
+            "font_class": "role",
+            "unicode": "e606",
+            "unicode_decimal": 58886
+        }
+    ]
+}

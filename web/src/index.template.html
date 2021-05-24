@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+    <head>
+        <meta charset="UTF-8" />
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0 user-scalable=yes" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="RIDIDKULUS || roseta-latte || admin"/>
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+        <title>RIDIDKULUS</title>
+        <link rel="stylesheet" href="./css/theme/dark/index.css" media="print" onload="this.media='all';this.onload=null">
+        <noscript><link rel="stylesheet" href="./css/theme/dark/index.css"></noscript>
+        <link rel="stylesheet" href="./base.css" />
+    </head>
+    <body>
+        <div class="initializing">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <div id="app"></div>
+        <script src="dll/_dll_vendor.js"></script>
+        <script defer type="text/javascript">
+            // 初始页面
+            window.initSuccess = (function() {
+                var $initializing = document.getElementsByClassName('initializing')[0];
+                return function() {
+                    $initializing.setAttribute('success', true);
+                    setTimeout(function() {
+                        $initializing.parentNode && $initializing.parentNode.removeChild($initializing);
+                    }, 500);
+                };
+            })();
+        </script>
+    </body>
+</html>
